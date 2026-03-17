@@ -1,0 +1,115 @@
+.register-page{
+  display:flex;
+  height:100vh;
+  background:#0f172a;
+  color:white;
+}
+
+/* LEFT */
+
+.register-left{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(120deg,#2A7FFF,#00C2A8);
+}
+
+.register-left img{
+  width:500px;
+  border-radius:20px;
+  box-shadow:0 20px 40px rgba(0,0,0,0.4);
+}
+
+/* RIGHT */
+
+.register-right{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* CARD */
+
+.register-card{
+  background:rgba(255,255,255,0.1);
+  backdrop-filter:blur(20px);
+  padding:40px;
+  border-radius:16px;
+  width:380px;
+  border:1px solid rgba(255,255,255,0.2);
+  text-align:center;
+}
+
+.register-card p{
+  color:#cbd5f5;
+}
+
+/* BUTTON */
+
+.register-btn{
+  margin-top:20px !important;
+  padding:12px !important;
+  background:#38bdf8 !important;
+  color:black !important;
+  font-weight:600 !important;
+}
+
+/* LOGIN LINK */
+
+.login-text{
+  margin-top:15px;
+  font-size:14px;
+}
+
+.login-link{
+  color:#38bdf8;
+  text-decoration:none;
+}
+
+.login-link:hover{
+  text-decoration:underline;
+}
+
+/* INPUT FIX */
+
+.MuiInputBase-input{
+  color:white !important;
+}
+
+.MuiInputLabel-root{
+  color:#cbd5f5 !important;
+}
+
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline{
+  border-color:#38bdf8 !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color:#0ea5e9 !important;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:900px){
+
+  .register-page{
+    flex-direction:column;
+  }
+
+  .register-left{
+    display:none;
+  }
+
+}
+
+.role-select{
+  width:100%;
+  padding:12px;
+  margin-top:15px;
+  border-radius:8px;
+  background:#1e293b;
+  color:white;
+  border:1px solid #38bdf8;
+}

@@ -1,0 +1,140 @@
+.login-page{
+  display:flex;
+  height:100vh;
+  background:#0f172a;
+  color:white;
+}
+
+/* LEFT SIDE */
+
+.login-left{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(120deg,#2A7FFF,#00C2A8);
+}
+
+.login-left img{
+  width:400px;
+  border-radius:20px;
+}
+
+/* RIGHT SIDE */
+
+.login-right{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* CARD */
+.login-card{
+  background:rgba(255,255,255,0.1);   /* slightly brighter */
+  backdrop-filter:blur(20px);
+  padding:40px;
+  border-radius:16px;
+  width:360px;
+  border:1px solid rgba(255,255,255,0.2);
+  text-align:center;
+}
+
+.login-card h2{
+  margin-bottom:10px;
+}
+
+.login-card p{
+  margin-bottom:20px;
+  color:#cbd5f5;
+}
+
+/* BUTTON */
+
+.login-btn{
+  margin-top:20px !important;
+  padding:12px !important;
+  background:#38bdf8 !important;
+  color:black !important;
+  font-weight:600 !important;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:900px){
+
+  .login-page{
+    flex-direction:column;
+  }
+
+  .login-left{
+    display:none;
+  }
+
+}
+
+.forgot{
+  margin-top:10px;
+  font-size:13px;
+  color:#38bdf8;
+  cursor:pointer;
+}
+
+.login-left img{
+  width:520px;          /* bigger */
+  max-width:90%;
+  border-radius:20px;
+  box-shadow:0 20px 40px rgba(0,0,0,0.4);
+}
+
+/* Input text color */
+.MuiInputBase-input{
+  color:white !important;
+}
+
+/* Label color */
+.MuiInputLabel-root{
+  color:#cbd5f5 !important;
+}
+
+/* Border color */
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline{
+  border-color:#38bdf8 !important;
+}
+
+/* Focus effect */
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color:#0ea5e9 !important;
+}
+
+.login-card h2{
+  color:white;
+}
+
+.login-card p{
+  color:#cbd5f5;
+}
+
+.login-btn{
+  margin-top:20px !important;
+  padding:12px !important;
+  background:#38bdf8 !important;
+  color:black !important;
+  font-weight:600 !important;
+}
+
+.register-text{
+  margin-top:15px;
+  font-size:14px;
+  color:#cbd5f5;
+}
+
+.register-link{
+  color:#38bdf8;
+  text-decoration:none;
+  font-weight:500;
+}
+
+.register-link:hover{
+  text-decoration:underline;
+}
